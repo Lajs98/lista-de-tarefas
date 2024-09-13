@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    background-color: #e0f7fa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #d7c49d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #000000; 
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #03635a;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+li.task-item {
+    padding: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #0288d1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0277bd; 
+}
+
+/* Estilo da lista de tarefas */
+ul.task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid #0288d1; 
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, text-decoration 0.3s;
+}
+
+li.task-item.checked {
+    background-color: #c8e6c9; 
+    text-decoration: line-through;
+}
+
+/* Estilo do botão de exclusão */
+.delete-task-button {
+    background: #d32f2f; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.delete-task-button:hover {
+    background: #c62828; 
+}
+
+/* Estilo do botão de exclusão */
+footer{
+    padding: 16px 0;
+}
+
+
+
+
+
